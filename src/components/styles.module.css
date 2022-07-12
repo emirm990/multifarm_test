@@ -1,0 +1,26 @@
+.chartsContainer{
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 50px;
+}
+
+.chartsWrapper{
+  display: flex;
+  column-gap: 10px;
+}
+
+.chartContainer {
+  width: 50%;
+  padding: 25px 10px 10px 10px;
+  border-radius: 10px;
+  background-color: #2a2f4f;
+}
+
+@media screen and (max-width: 1024px) {
+  .chartsWrapper{
+    flex-direction: column;
+  }
+  .chartContainer {
+    width: 100%;
+  }
+}
